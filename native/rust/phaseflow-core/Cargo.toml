@@ -1,0 +1,12 @@
+[package]
+name = "phaseflow-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Native graph and percolation kernels for PhaseFlow"
+
+[lib]
+name = "phaseflow_core"
+path = "src/lib.rs"
+

@@ -1,0 +1,15 @@
+[package]
+name = "phaseflow-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Stable C interface to the PhaseFlow native core"
+
+[lib]
+name = "phaseflow_ffi"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+phaseflow-core = { path = "../phaseflow-core" }
+

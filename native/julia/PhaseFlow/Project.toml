@@ -1,0 +1,14 @@
+name = "PhaseFlow"
+uuid = "0f2971cb-332f-4860-96a3-2d4943fc26a1"
+authors = ["Manish Krishan Lal"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+

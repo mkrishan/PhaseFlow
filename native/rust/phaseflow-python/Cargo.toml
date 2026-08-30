@@ -1,0 +1,15 @@
+[package]
+name = "phaseflow-python"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Optional Python bindings for the PhaseFlow native core"
+
+[lib]
+name = "_phaseflow_native"
+crate-type = ["cdylib"]
+
+[dependencies]
+phaseflow-core = { path = "../phaseflow-core" }
+pyo3 = { version = "0.29", features = ["extension-module"] }
